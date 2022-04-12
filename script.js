@@ -1,6 +1,10 @@
-document.querySelector('#button').addEventListener('click',logmessages); 
+document.querySelector('#button').addEventListener('click',logDebug); 
 
-function logmessages(){
+function logDebug(){
+    logMessage()
+}
+
+function logMessage(){
     console.log('message');
     console.warn('attention!');
     console.error('ERREUR');
