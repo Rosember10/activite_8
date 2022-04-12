@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations":[
         {
-            "type":"chrome",
+            "type":"Firefox",
             "name":"launch web page",
             "request":"launch",
             "url": "http://localhost:8080",
